@@ -17,3 +17,36 @@ Best ROC AUC: 0.6100395017685236
 
 
 One run of my algorithm:
+Best Columns: 
+['keep_alive_session']
+Best ROC AUC: 0.5
+Best Columns: 
+['customer_age']
+Best ROC AUC: 0.5969967901419008
+Best Columns: 
+['proposed_credit_limit']
+Best ROC AUC: 0.6052023132488998
+Best Columns: 
+['proposed_credit_limit']
+Best ROC AUC: 0.6055005079076775
+Best Columns: 
+['credit_risk_score' 'customer_age']
+Best ROC AUC: 0.6076006951151186
+Best Columns: 
+['proposed_credit_limit' 'foreign_request']
+Best ROC AUC: 0.6099634673146788
+Best Columns: 
+['proposed_credit_limit' 'velocity_24h' 'customer_age']
+Best ROC AUC: 0.6130861154354708
+Best Columns: 
+['customer_age' 'proposed_credit_limit' 'session_length_in_minutes'
+ 'credit_risk_score' 'foreign_request' 'keep_alive_session']
+Best ROC AUC: 0.6277952173040097
+
+BIGGER RUN:
+['proposed_credit_limit', 'customer_age', 'credit_risk_score', 'name_email_similarity', 'customer_age', 'keep_alive_session', 'velocity_4w']
+Best ROC AUC: 0.6528674534423344
+Best Columns: 
+
+['proposed_credit_limit', 'customer_age', 'credit_risk_score', 'name_email_similarity', 'customer_age', 'keep_alive_session', 'velocity_4w', 'customer_age']
+Best ROC AUC: 0.6480046513749789
