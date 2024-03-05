@@ -1,0 +1,19 @@
+1 features?
+['proposed_credit_limit']
+Best ROC AUC: 0.6062964359037679
+
+2 features?
+['customer_age' 'proposed_credit_limit']
+Best ROC AUC: 0.6183401562672147
+
+3 features?
+
+
+5 features?
+Best Columns: 
+['income', 'customer_age', 'zip_count_4w', 'name_email_similarity'
+ 'proposed_credit_limit']
+Best ROC AUC: 0.6100395017685236
+
+
+One run of my algorithm:
